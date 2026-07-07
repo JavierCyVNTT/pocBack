@@ -106,3 +106,7 @@ reports/
 dispatcher/src/conf.d/variables/default.vars
 ui.tests/test-module/assets/form/themes/**/*diff.png
 ui.tests/test-module/assets/form/themes/**/*current.png
+# Local secrets - never commit
+**/config.author/com.adobe.aem.ecommerce.headless.core.services.GeminiService.cfg.json
+ui.frontend.react.forms.af/.env
+ui.frontend.react.forms.af/.env.development
