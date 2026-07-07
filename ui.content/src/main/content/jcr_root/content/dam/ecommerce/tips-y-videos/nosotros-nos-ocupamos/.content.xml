@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="c9cc56ac-f55f-49cb-8a17-c0df96037d77">
+    <jcr:content
+        cq:name="nosotros-nos-ocupamos"
+        cq:parentPath="/content/dam/ecommerce/tips-y-videos"
+        jcr:lastModified="{Date}2026-05-28T13:23:24.189-03:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Nosotros nos ocupamos"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2026-05-28T13:23:24.189-03:00">
+        <data
+            cq:model="/conf/ecommerce/settings/dam/cfm/models/vertical-card"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                image="/content/dam/ecommerce/imagenes/img-1.jpg"
+                image_x0040_LastModified="{Date}2026-05-28T13:23:24.164-03:00"
+                image_x0040_LastModifiedBy="admin"
+                subtitle="Tu tiempo es muy valioso"
+                subtitle_x0040_LastModified="{Date}2026-05-19T11:11:54.225-03:00"
+                subtitle_x0040_LastModifiedBy="admin"
+                title="Nosotros nos ocupamos"
+                title_x0040_LastModified="{Date}2026-05-19T11:11:54.223-03:00"
+                title_x0040_LastModifiedBy="admin"
+                video_x0040_LastModified="{Date}2026-05-19T11:11:02.788-03:00"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="b77da7ea-5e73-4c89-98ac-e94050b50427"
+                _x0040_string_x0040_model="/conf/ecommerce/settings/dam/cfm/models/vertical-card"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_subtitle="Tu tiempo es muy valioso"
+                string_x0040_title="Nosotros nos ocupamos"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

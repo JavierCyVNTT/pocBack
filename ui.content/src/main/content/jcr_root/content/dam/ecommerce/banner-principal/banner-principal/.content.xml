@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="94fa9540-595b-4a48-ba11-6dda52aef0e5">
+    <jcr:content
+        cq:name="banner-principal"
+        cq:parentPath="/content/dam/ecommerce/banner-principal"
+        jcr:lastModified="{Date}2026-05-19T14:42:25.029-03:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Banner Principal"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2026-05-19T14:42:25.029-03:00">
+        <data
+            cq:model="/conf/ecommerce/settings/dam/cfm/models/banner-principal"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                links="[&lt;p>&lt;a href=&quot;/unpath.html&quot;>Comprar&lt;/a>&lt;/p>&#xa;,&lt;p>&lt;a href=&quot;/unpath.html&quot;>Vender&lt;/a>&lt;/p>&#xa;,&lt;p>&lt;a href=&quot;/unpath.html&quot;>Cambiar&lt;/a>&lt;/p>&#xa;]"
+                links_x0040_ContentType="text/html"
+                links_x0040_LastModified="{Date}2026-05-19T14:42:24.993-03:00"
+                links_x0040_LastModifiedBy="admin"
+                subtitle="Compra y venta de autos. Fácil y Seguro"
+                subtitle_x0040_LastModified="{Date}2026-05-19T14:42:24.992-03:00"
+                subtitle_x0040_LastModifiedBy="admin"
+                title="Transformá tu camino"
+                title_x0040_LastModified="{Date}2026-05-19T14:42:24.990-03:00"
+                title_x0040_LastModifiedBy="admin"
+                video_x0040_LastModified="{Date}2026-05-19T14:39:04.854-03:00"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="d0b2778c-a885-4ebf-925f-37a3c6275201"
+                _x0040_string_x0040_model="/conf/ecommerce/settings/dam/cfm/models/banner-principal"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_subtitle="Compra y venta de autos. Fácil y Seguro"
+                string_x0040_title="Transformá tu camino"
+                stringArray_x0040_links="[&lt;p>&lt;a href=&quot;/unpath.html&quot;>Comprar&lt;/a>&lt;/p>&#xa;,&lt;p>&lt;a href=&quot;/unpath.html&quot;>Vender&lt;/a>&lt;/p>&#xa;,&lt;p>&lt;a href=&quot;/unpath.html&quot;>Cambiar&lt;/a>&lt;/p>&#xa;]"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

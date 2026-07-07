@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="4e3a6079-69d2-48b4-a13e-8545a18c4449">
+    <jcr:content
+        cq:name="bronco"
+        cq:parentPath="/content/dam/ecommerce/modelos"
+        jcr:lastModified="{Date}2026-06-08T17:26:22.581-03:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Bronco"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2026-06-08T17:26:22.581-03:00">
+        <data
+            cq:model="/conf/ecommerce/settings/dam/cfm/models/vehicle-model"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                brand="/content/dam/ecommerce/marcas/ford"
+                brand_x0040_LastModified="{Date}2026-05-28T12:55:25.394-03:00"
+                brand_x0040_LastModifiedBy="admin"
+                name="Bronco"
+                name_x0040_LastModified="{Date}2026-05-28T12:55:25.393-03:00"
+                name_x0040_LastModifiedBy="admin"
+                type="/content/dam/ecommerce/types/suv"
+                type_x0040_LastModified="{Date}2026-06-08T17:26:22.543-03:00"
+                type_x0040_LastModifiedBy="admin"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="ff44165d-d212-4552-be7f-e716b9efa596"
+                _x0040_string_x0040_model="/conf/ecommerce/settings/dam/cfm/models/vehicle-model"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_name="Bronco"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

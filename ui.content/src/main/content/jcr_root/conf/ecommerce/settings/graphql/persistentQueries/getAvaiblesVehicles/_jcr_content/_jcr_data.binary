@@ -1,0 +1,70 @@
+query getVehicles($model: String!, $brand: String!, $type: String!, $masVendidos: String!, $destacado: String!) {
+  vehicleList(
+    
+filter: {
+    destacado: {
+      _expressions: [{
+        _operator: CONTAINS
+        value: $destacado
+        _ignoreCase: true
+      }]
+  }
+  masVendidos: {
+      _expressions: [{
+        _operator: CONTAINS
+        value: $masVendidos
+        _ignoreCase: true
+      }]
+  }
+  modelName: {
+      _expressions: [{
+        _operator: CONTAINS
+        value: $model
+        _ignoreCase: true
+      }]
+  }
+  brandName: {
+      _expressions: [{
+        _operator: CONTAINS
+        value: $brand
+        _ignoreCase: true
+      }]
+  }
+    typeName: {
+      _expressions: [{
+        _operator: CONTAINS
+        value: $type
+        _ignoreCase: true
+      }]
+  }
+}
+
+  ) {
+    items {
+      _id
+      year
+      km
+      insideImage {
+        ... on ImageRef {
+          _path
+        }
+      }
+    	outsideImage {
+        ... on ImageRef {
+          _path
+        }
+      }
+      modelName
+      destacado
+      masVendidos
+      brandName
+      price
+      model {
+        name
+        brand {
+          name
+        }
+      }
+    }
+  }
+}

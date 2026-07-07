@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="f855aead-24c5-4bb1-9ef9-4d469331811c">
+    <jcr:content
+        cq:name="busca-por-a-o"
+        cq:parentPath="/content/dam/ecommerce/continua-tu-busqueda"
+        jcr:lastModified="{Date}2026-05-18T12:04:52.263-03:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Busca por año"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2026-05-18T12:04:52.263-03:00">
+        <data
+            cq:model="/conf/ecommerce/settings/dam/cfm/models/accordion"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                items="[&lt;p>&lt;a href=&quot;/unpath.html&quot;>2015&lt;/a>&lt;/p>&#xa;,&lt;p>&lt;a href=&quot;/unpath.html&quot;>201&lt;/a>6&lt;/p>&#xa;,&lt;p>&lt;a href=&quot;/unpath.html&quot;>201&lt;/a>7&lt;/p>&#xa;,&lt;p>&lt;a href=&quot;/unpath.html&quot;>201&lt;/a>8&lt;/p>&#xa;,&lt;p>&lt;a href=&quot;/unpath.html&quot;>201&lt;/a>9&lt;/p>&#xa;,&lt;p>&lt;a href=&quot;/unpath.html&quot;>20&lt;/a>20&lt;/p>&#xa;,&lt;p>&lt;a href=&quot;/unpath.html&quot;>20&lt;/a>21&lt;/p>&#xa;,&lt;p>&lt;a href=&quot;/unpath.html&quot;>20&lt;/a>22&lt;/p>&#xa;]"
+                items_x0040_ContentType="text/html"
+                items_x0040_LastModified="{Date}2026-05-18T12:04:52.218-03:00"
+                items_x0040_LastModifiedBy="admin"
+                title="Busca por año"
+                title_x0040_LastModified="{Date}2026-05-18T12:04:52.218-03:00"
+                title_x0040_LastModifiedBy="admin"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="e367c0b2-cbd4-4c87-84cf-59335fcb1f52"
+                _x0040_string_x0040_model="/conf/ecommerce/settings/dam/cfm/models/accordion"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_title="Busca por año"
+                stringArray_x0040_items="[&lt;p>&lt;a href=&quot;/unpath.html&quot;>2015&lt;/a>&lt;/p>&#xa;,&lt;p>&lt;a href=&quot;/unpath.html&quot;>201&lt;/a>6&lt;/p>&#xa;,&lt;p>&lt;a href=&quot;/unpath.html&quot;>201&lt;/a>7&lt;/p>&#xa;,&lt;p>&lt;a href=&quot;/unpath.html&quot;>201&lt;/a>8&lt;/p>&#xa;,&lt;p>&lt;a href=&quot;/unpath.html&quot;>201&lt;/a>9&lt;/p>&#xa;,&lt;p>&lt;a href=&quot;/unpath.html&quot;>20&lt;/a>20&lt;/p>&#xa;,&lt;p>&lt;a href=&quot;/unpath.html&quot;>20&lt;/a>21&lt;/p>&#xa;,&lt;p>&lt;a href=&quot;/unpath.html&quot;>20&lt;/a>22&lt;/p>&#xa;]"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="030fbda7-edea-4e87-8569-70ef0bacc6d1">
+    <jcr:content
+        cq:name="probalo"
+        cq:parentPath="/content/dam/ecommerce/más-de-50-000-personas-ya-confiaron-en-kavak"
+        jcr:lastModified="{Date}2026-06-09T11:25:19.512-03:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Probalo"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2026-06-09T11:25:19.512-03:00">
+        <data
+            cq:model="/conf/ecommerce/settings/dam/cfm/models/card-with-icon"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                description="Comprando tu auto Kavak tenés 7 días o 300 km de prueba"
+                description_x0040_LastModified="{Date}2026-05-19T11:28:50.851-03:00"
+                description_x0040_LastModifiedBy="admin"
+                icon="/content/dam/ecommerce/imagenes/icon-control.png"
+                icon_x0040_LastModified="{Date}2026-06-09T11:25:19.478-03:00"
+                icon_x0040_LastModifiedBy="admin"
+                title="Probalo antes de decidir"
+                title_x0040_LastModified="{Date}2026-05-19T11:28:50.851-03:00"
+                title_x0040_LastModifiedBy="admin"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="b2b5fad1-dd6d-40d2-b66f-c6e98aee3fd1"
+                _x0040_string_x0040_model="/conf/ecommerce/settings/dam/cfm/models/card-with-icon"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_description="Comprando tu auto Kavak tenés 7 días o 300 km de prueba"
+                string_x0040_title="Probalo antes de decidir"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

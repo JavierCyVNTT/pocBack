@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="6e5f2a03-1328-4fa6-9e5f-12c7e85e2331">
+    <jcr:content
+        cq:name="fiesta-kinetic"
+        cq:parentPath="/content/dam/ecommerce/modelos"
+        jcr:lastModified="{Date}2026-06-09T17:39:16.552-03:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Fiesta Kinetic"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2026-06-09T17:39:16.552-03:00">
+        <data
+            cq:model="/conf/ecommerce/settings/dam/cfm/models/vehicle-model"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                brand="/content/dam/ecommerce/marcas/ford"
+                brand_x0040_LastModified="{Date}2026-06-09T17:39:16.527-03:00"
+                brand_x0040_LastModifiedBy="admin"
+                name="Fiesta Kinetic"
+                name_x0040_LastModified="{Date}2026-06-09T17:39:16.526-03:00"
+                name_x0040_LastModifiedBy="admin"
+                type="/content/dam/ecommerce/types/hatchback"
+                type_x0040_LastModified="{Date}2026-06-09T17:39:16.528-03:00"
+                type_x0040_LastModifiedBy="admin"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="20444f96-18ae-43f1-a23e-6dadef40fa5f"
+                _x0040_string_x0040_model="/conf/ecommerce/settings/dam/cfm/models/vehicle-model"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_name="Fiesta Kinetic"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

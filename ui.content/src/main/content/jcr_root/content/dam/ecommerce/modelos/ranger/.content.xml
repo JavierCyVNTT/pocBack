@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="e7a7565c-6346-49b5-9238-e6c31e290dbf">
+    <jcr:content
+        cq:name="ranger"
+        cq:parentPath="/content/dam/ecommerce/modelos"
+        jcr:lastModified="{Date}2026-06-09T17:40:25.802-03:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Ranger"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2026-06-09T17:40:25.802-03:00">
+        <data
+            cq:model="/conf/ecommerce/settings/dam/cfm/models/vehicle-model"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                brand="/content/dam/ecommerce/marcas/ford"
+                brand_x0040_LastModified="{Date}2026-06-09T17:40:25.780-03:00"
+                brand_x0040_LastModifiedBy="admin"
+                name="Ranger"
+                name_x0040_LastModified="{Date}2026-06-09T17:40:25.777-03:00"
+                name_x0040_LastModifiedBy="admin"
+                type="/content/dam/ecommerce/types/pickup"
+                type_x0040_LastModified="{Date}2026-06-09T17:40:25.780-03:00"
+                type_x0040_LastModifiedBy="admin"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="2f388e34-43bf-467a-9b6d-c7ec088f4ef6"
+                _x0040_string_x0040_model="/conf/ecommerce/settings/dam/cfm/models/vehicle-model"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_name="Ranger"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

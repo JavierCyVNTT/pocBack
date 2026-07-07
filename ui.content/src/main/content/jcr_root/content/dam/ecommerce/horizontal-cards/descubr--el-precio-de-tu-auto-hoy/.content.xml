@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="85537bfb-75fe-4bbe-80b6-dcf240237c57">
+    <jcr:content
+        cq:name="descubr--el-precio-de-tu-auto-hoy"
+        cq:parentPath="/content/dam/ecommerce/horizontal-cards"
+        jcr:lastModified="{Date}2026-06-10T15:22:02.033-03:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Descubrí el precio de tu auto hoy"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2026-06-10T15:22:02.033-03:00">
+        <data
+            cq:model="/conf/ecommerce/settings/dam/cfm/models/horizontal-card"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                actionText="Cotizá auto"
+                actionText_x0040_LastModified="{Date}2026-05-19T11:41:41.439-03:00"
+                actionText_x0040_LastModifiedBy="admin"
+                actionUrl="http://localhost:4321/sell"
+                actionUrl_x0040_LastModified="{Date}2026-06-10T15:22:02.018-03:00"
+                actionUrl_x0040_LastModifiedBy="admin"
+                description="Hacelo rápido y seguro"
+                description_x0040_LastModified="{Date}2026-05-19T11:41:41.437-03:00"
+                description_x0040_LastModifiedBy="admin"
+                image="/content/dam/ecommerce/imagenes/img-1.jpg"
+                image_x0040_LastModified="{Date}2026-06-09T11:19:29.218-03:00"
+                image_x0040_LastModifiedBy="admin"
+                title="Descubrí el precio de tu auto hoy"
+                title_x0040_LastModified="{Date}2026-05-19T11:41:41.437-03:00"
+                title_x0040_LastModifiedBy="admin"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="2bbe328f-a913-4c6d-887d-76b6fcfbaa54"
+                _x0040_string_x0040_model="/conf/ecommerce/settings/dam/cfm/models/horizontal-card"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_actionText="Cotizá auto"
+                string_x0040_actionUrl="http://localhost:4321/sell"
+                string_x0040_description="Hacelo rápido y seguro"
+                string_x0040_title="Descubrí el precio de tu auto hoy"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

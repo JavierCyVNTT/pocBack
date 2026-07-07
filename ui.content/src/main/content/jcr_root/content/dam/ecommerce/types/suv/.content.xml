@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="3c34ff02-bc3e-4e27-88ee-924f830a53dd">
+    <jcr:content
+        cq:name="suv"
+        cq:parentPath="/content/dam/ecommerce/types"
+        jcr:lastModified="{Date}2026-06-09T15:42:50.275-03:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="SUV"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2026-06-09T15:42:50.275-03:00">
+        <data
+            cq:model="/conf/ecommerce/settings/dam/cfm/models/vehicletype"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                image="/content/dam/ecommerce/imagenes/suv-image.png"
+                image_x0040_LastModified="{Date}2026-06-09T15:42:50.240-03:00"
+                image_x0040_LastModifiedBy="admin"
+                name="SUV"
+                name_x0040_LastModified="{Date}2026-06-08T17:24:26.671-03:00"
+                name_x0040_LastModifiedBy="admin"
+                url="/vehicles?type=suv"
+                url_x0040_LastModified="{Date}2026-06-09T15:42:50.237-03:00"
+                url_x0040_LastModifiedBy="admin"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="2ddee4f0-cd85-47b4-93ea-9b951573daa1"
+                _x0040_string_x0040_model="/conf/ecommerce/settings/dam/cfm/models/vehicletype"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_name="SUV"
+                string_x0040_url="/vehicles?type=suv"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

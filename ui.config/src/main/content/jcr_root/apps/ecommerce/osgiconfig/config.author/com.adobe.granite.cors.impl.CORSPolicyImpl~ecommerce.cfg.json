@@ -1,0 +1,23 @@
+{
+  "alloworigin": ["http://localhost:4321"],
+  "allowedpaths": ["/(content|conf)/ecommerce.*", "/graphql/execute.json.*", "/content/experience-fragments/.*", "/libs/granite/csrf/.*"],
+  "supportedheaders": [
+    "Authorization",
+    "Origin",
+    "Accept",
+    "X-Requested-With",
+    "Content-Type",
+    "Access-Control-Request-Method",
+    "Access-Control-Request-Headers",
+    "CSRF-Token",
+    "csrf-token"
+  ],
+  "supportedmethods": [
+    "GET",
+    "HEAD",
+    "POST"],
+  "maxage:Integer": 1800,
+  "supportscredentials": true,
+  "alloworiginregexp": [],
+  "exposedheaders":[ "" ]
+}

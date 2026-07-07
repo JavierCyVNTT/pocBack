@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="c3c33783-5f18-467c-aa15-e3d2e2ddba3e">
+    <jcr:content
+        cq:name="ofertas"
+        cq:parentPath="/content/dam/ecommerce/más-de-50-000-personas-ya-confiaron-en-kavak"
+        jcr:lastModified="{Date}2026-06-09T11:24:46.376-03:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Ofertas"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2026-06-09T11:24:46.376-03:00">
+        <data
+            cq:model="/conf/ecommerce/settings/dam/cfm/models/card-with-icon"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                description="Hoy compramos más autos que nunca. Cambiá tu auto y recibí un bono extra"
+                description_x0040_LastModified="{Date}2026-05-19T11:34:15.667-03:00"
+                description_x0040_LastModifiedBy="admin"
+                icon="/content/dam/ecommerce/imagenes/icon-car.png"
+                icon_x0040_LastModified="{Date}2026-06-09T11:24:46.351-03:00"
+                icon_x0040_LastModifiedBy="admin"
+                title="Más ofertas, más libertad"
+                title_x0040_LastModified="{Date}2026-05-19T11:34:15.666-03:00"
+                title_x0040_LastModifiedBy="admin"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="58f4b160-9040-43e6-8b5d-1c14a68be74a"
+                _x0040_string_x0040_model="/conf/ecommerce/settings/dam/cfm/models/card-with-icon"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_description="Hoy compramos más autos que nunca. Cambiá tu auto y recibí un bono extra"
+                string_x0040_title="Más ofertas, más libertad"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

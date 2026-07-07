@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:ns1="http://xmp.gettyimages.com/gift/1.0/" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:plus="http://ns.useplus.org/ldf/xmp/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="acd8361b-67ad-44fa-9d8d-f69ec64dac46">
+    <jcr:content
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2026-06-10T16:26:49.466-03:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2026-06-10T16:26:49.294-03:00"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}300"
+            dam:Physicalheightininches="{Decimal}1.3600000143051147"
+            dam:Physicalwidthindpi="{Long}300"
+            dam:Physicalwidthininches="{Decimal}2.0399999618530273"
+            dam:Progressive="yes"
+            dam:sha1="2c61aad6b0159016a78e295924e1026a546181e2"
+            dam:size="{Long}36412"
+            dc:creator="[Photo travelling people sports]"
+            dc:creator_xmpArrayType="rdf:Seq"
+            dc:description="Exchange money and car keys. Insurance, loan concept. Deal of buying or renting a car"
+            dc:format="image/jpeg"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            ns1:AssetID="{Long}1600645221"
+            photoshop:Credit="Getty Images"
+            plus:DataMining="http://ns.useplus.org/ldf/vocab/DMI-PROHIBITED-EXCEPTSEARCHENGINEINDEXING"
+            tiff:ImageLength="{Long}408"
+            tiff:ImageWidth="{Long}612"
+            tiff:XResolution="300/1"
+            tiff:YResolution="300/1"
+            xmpRights:WebStatement="https://www.istockphoto.com/legal/license-agreement?utm_medium=organic&amp;utm_source=google&amp;utm_campaign=iptcurl">
+            <plus:Licensor
+                jcr:primaryType="nt:unstructured"
+                xmpArraySize="{Long}1"
+                xmpArrayType="rdf:Seq"
+                xmpNodeType="xmpArray">
+                <_x0031_
+                    jcr:primaryType="nt:unstructured"
+                    plus:LicensorURL="https://www.istockphoto.com/photo/license-gm1600645221-?utm_medium=organic&amp;utm_source=google&amp;utm_campaign=iptcurl"
+                    xmpNodeType="xmpStruct"/>
+            </plus:Licensor>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

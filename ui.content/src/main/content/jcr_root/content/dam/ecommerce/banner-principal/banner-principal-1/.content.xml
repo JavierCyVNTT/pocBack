@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="399aa9cb-95b2-4427-82d9-702807845dc4">
+    <jcr:content
+        cq:name="banner-principal-1"
+        cq:parentPath="/content/dam/ecommerce/banner-principal"
+        jcr:lastModified="{Date}2026-06-11T10:42:16.087-03:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Banner principal"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2026-06-11T10:42:16.087-03:00">
+        <data
+            cq:model="/conf/ecommerce/settings/dam/cfm/models/main-banner"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                imagen="/content/dam/ecommerce/imagenes/img-1.jpg"
+                imagen_x0040_LastModified="{Date}2026-06-11T10:42:15.769-03:00"
+                imagen_x0040_LastModifiedBy="admin"
+                links="[&lt;p>&lt;a href=&quot;http://localhost:4321/vehicles&quot;>Comprar&lt;/a>&lt;/p>&#xa;,&lt;p>&lt;a href=&quot;http://localhost:4321/sell&quot;>Vender&lt;/a>&lt;/p>&#xa;,&lt;p>&lt;a href=&quot;http://localhost:4321/trade&quot;>Cambiar&lt;/a>&lt;/p>&#xa;]"
+                links_x0040_ContentType="text/html"
+                links_x0040_LastModified="{Date}2026-06-10T16:04:00.714-03:00"
+                links_x0040_LastModifiedBy="admin"
+                title="Banner principal"
+                title_x0040_LastModified="{Date}2026-05-28T12:19:06.721-03:00"
+                title_x0040_LastModifiedBy="admin"
+                video_x0040_LastModified="{Date}2026-05-28T12:16:46.635-03:00"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="cdef1bd8-f3f0-44ff-a973-93f554d1bc2e"
+                _x0040_string_x0040_model="/conf/ecommerce/settings/dam/cfm/models/main-banner"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_title="Banner principal"
+                stringArray_x0040_links="[&lt;p>&lt;a href=&quot;http://localhost:4321/vehicles&quot;>Comprar&lt;/a>&lt;/p>&#xa;,&lt;p>&lt;a href=&quot;http://localhost:4321/sell&quot;>Vender&lt;/a>&lt;/p>&#xa;,&lt;p>&lt;a href=&quot;http://localhost:4321/trade&quot;>Cambiar&lt;/a>&lt;/p>&#xa;]"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

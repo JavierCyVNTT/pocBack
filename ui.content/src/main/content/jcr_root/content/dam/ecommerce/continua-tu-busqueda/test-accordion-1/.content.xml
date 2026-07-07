@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="ba69e295-39c5-40b0-8d7d-6b9f3df3db25">
+    <jcr:content
+        cq:name="test-accordion-1"
+        cq:parentPath="/content/dam/ecommerce/continua-tu-busqueda"
+        jcr:lastModified="{Date}2026-05-18T12:02:10.273-03:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="test-accordion-1"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2026-05-18T12:02:10.273-03:00">
+        <data
+            cq:model="/conf/ecommerce/settings/dam/cfm/models/accordion"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                items="[&lt;p>&lt;a title=&quot;path&quot; href=&quot;/unpath.html&quot;>Autos de 10 millones de pesos&lt;/a>&lt;/p>&#xa;,&lt;p>&lt;a title=&quot;path&quot; href=&quot;/unpath.html&quot;>Autos de 18 millones de pesos&lt;/a>&lt;/p>&#xa;,&lt;p>&lt;a title=&quot;path&quot; href=&quot;/unpath.html&quot;>Autos de 24 millones de pesos&lt;/a>&lt;/p>&#xa;,&lt;p>&lt;a title=&quot;path&quot; href=&quot;/unpath.html&quot;>Autos de 30 millones de pesos&lt;/a>&lt;/p>&#xa;,&lt;p>&lt;a title=&quot;path&quot; href=&quot;/unpath.html&quot;>Autos de 40 millones de pesos&lt;/a>&lt;/p>&#xa;,&lt;p>&lt;a title=&quot;path&quot; href=&quot;/unpath.html&quot;>Autos de 50 millones de pesos&lt;/a>&lt;/p>&#xa;,&lt;p>&lt;a title=&quot;path&quot; href=&quot;/unpath.html&quot;>Autos de 60 millones de pesos&lt;/a>&lt;/p>&#xa;]"
+                items_x0040_ContentType="text/html"
+                items_x0040_LastModified="{Date}2026-05-18T12:02:10.241-03:00"
+                items_x0040_LastModifiedBy="admin"
+                title="Busca por rango de precio"
+                title_x0040_LastModified="{Date}2026-05-15T18:46:32.946-03:00"
+                title_x0040_LastModifiedBy="admin"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="4b15edf7-26fc-4236-9ebf-eea4609115fc"
+                _x0040_string_x0040_model="/conf/ecommerce/settings/dam/cfm/models/accordion"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_title="Busca por rango de precio"
+                stringArray_x0040_items="[&lt;p>&lt;a title=&quot;path&quot; href=&quot;/unpath.html&quot;>Autos de 10 millones de pesos&lt;/a>&lt;/p>&#xa;,&lt;p>&lt;a title=&quot;path&quot; href=&quot;/unpath.html&quot;>Autos de 18 millones de pesos&lt;/a>&lt;/p>&#xa;,&lt;p>&lt;a title=&quot;path&quot; href=&quot;/unpath.html&quot;>Autos de 24 millones de pesos&lt;/a>&lt;/p>&#xa;,&lt;p>&lt;a title=&quot;path&quot; href=&quot;/unpath.html&quot;>Autos de 30 millones de pesos&lt;/a>&lt;/p>&#xa;,&lt;p>&lt;a title=&quot;path&quot; href=&quot;/unpath.html&quot;>Autos de 40 millones de pesos&lt;/a>&lt;/p>&#xa;,&lt;p>&lt;a title=&quot;path&quot; href=&quot;/unpath.html&quot;>Autos de 50 millones de pesos&lt;/a>&lt;/p>&#xa;,&lt;p>&lt;a title=&quot;path&quot; href=&quot;/unpath.html&quot;>Autos de 60 millones de pesos&lt;/a>&lt;/p>&#xa;]"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

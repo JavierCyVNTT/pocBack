@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="ec0344f3-95c6-4391-aa81-fe0292084713">
+    <jcr:content
+        cq:name="john-doe-3"
+        cq:parentPath="/content/dam/ecommerce/lo-que-opinan-nuestros-clientes"
+        jcr:lastModified="{Date}2026-05-19T10:52:30.766-03:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="John Doe 3"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2026-05-19T10:52:30.766-03:00">
+        <data
+            cq:model="/conf/ecommerce/settings/dam/cfm/models/opinion"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                date="10/01/2026"
+                date_x0040_LastModified="{Date}2026-05-19T10:52:30.741-03:00"
+                date_x0040_LastModifiedBy="admin"
+                fullName="John Doe 3"
+                fullName_x0040_LastModified="{Date}2026-05-19T10:52:30.740-03:00"
+                fullName_x0040_LastModifiedBy="admin"
+                text="&lt;p>Muy cómoda experiencia, amables y cálidos. Te ayudan a elegir el mejor auto. ¡100% recomendado!&lt;/p>&#xa;"
+                text_x0040_ContentType="text/html"
+                text_x0040_LastModified="{Date}2026-05-19T10:52:30.740-03:00"
+                text_x0040_LastModifiedBy="admin"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="328cdde6-e733-4179-96d5-c8b8f0ea5e1c"
+                _x0040_string_x0040_model="/conf/ecommerce/settings/dam/cfm/models/opinion"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_date="10/01/2026"
+                string_x0040_fullName="John Doe 3"
+                string_x0040_text="&lt;p>Muy cómoda experiencia, amables y cálidos. Te ayudan a elegir el mejor auto. ¡100% recomendado!&lt;/p>&#xa;"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

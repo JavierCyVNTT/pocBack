@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="51034937-f43f-441b-b462-6c541a42828f">
+    <jcr:content
+        cq:name="cotiz--tu-auto"
+        cq:parentPath="/content/dam/ecommerce/tips-y-videos"
+        jcr:lastModified="{Date}2026-05-28T13:22:54.757-03:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Cotizá tu auto"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2026-05-28T13:22:54.757-03:00">
+        <data
+            cq:model="/conf/ecommerce/settings/dam/cfm/models/vertical-card"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                image="/content/dam/ecommerce/imagenes/img-1.jpg"
+                image_x0040_LastModified="{Date}2026-05-28T13:22:54.730-03:00"
+                image_x0040_LastModifiedBy="admin"
+                subtitle="abrís la aplicación, cargas tus datos"
+                subtitle_x0040_LastModified="{Date}2026-05-19T11:13:06.374-03:00"
+                subtitle_x0040_LastModifiedBy="admin"
+                title="Cotizá tu auto"
+                title_x0040_LastModified="{Date}2026-05-19T11:13:06.374-03:00"
+                title_x0040_LastModifiedBy="admin"
+                video_x0040_LastModified="{Date}2026-05-19T11:12:16.322-03:00"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="90af7980-4e7b-4016-bdc0-bc472b2fa64b"
+                _x0040_string_x0040_model="/conf/ecommerce/settings/dam/cfm/models/vertical-card"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_subtitle="abrís la aplicación, cargas tus datos"
+                string_x0040_title="Cotizá tu auto"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

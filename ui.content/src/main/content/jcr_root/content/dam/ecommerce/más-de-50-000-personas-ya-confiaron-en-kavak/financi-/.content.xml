@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="971cd614-90ff-4cde-8550-3d01206aa46a">
+    <jcr:content
+        cq:name="financi-"
+        cq:parentPath="/content/dam/ecommerce/más-de-50-000-personas-ya-confiaron-en-kavak"
+        jcr:lastModified="{Date}2026-06-09T11:25:40.184-03:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Financiá"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2026-06-09T11:25:40.184-03:00">
+        <data
+            cq:model="/conf/ecommerce/settings/dam/cfm/models/card-with-icon"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                description="Con los aliados más grandes de la región"
+                description_x0040_LastModified="{Date}2026-05-19T11:28:02.144-03:00"
+                description_x0040_LastModifiedBy="admin"
+                icon="/content/dam/ecommerce/imagenes/icon-hand.png"
+                icon_x0040_LastModified="{Date}2026-06-09T11:25:40.162-03:00"
+                icon_x0040_LastModifiedBy="admin"
+                title="Financiá el auto que querés"
+                title_x0040_LastModified="{Date}2026-05-19T11:28:02.143-03:00"
+                title_x0040_LastModifiedBy="admin"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="131e142f-d73a-4619-8250-fd197179c90a"
+                _x0040_string_x0040_model="/conf/ecommerce/settings/dam/cfm/models/card-with-icon"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_description="Con los aliados más grandes de la región"
+                string_x0040_title="Financiá el auto que querés"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

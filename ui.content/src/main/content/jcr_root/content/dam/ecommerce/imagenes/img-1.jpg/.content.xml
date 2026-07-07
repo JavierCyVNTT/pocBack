@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="423b5452-c304-42ef-a4ad-271e81469576">
+    <jcr:content
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2026-06-10T16:26:50.574-03:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2026-06-10T16:26:49.831-03:00"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Decimal}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Decimal}-1.0"
+            dam:Progressive="no"
+            dam:sha1="9014baeae6e8a9cd1702466093eeee2d14c5b7d6"
+            dam:size="{Long}77028"
+            dc:format="image/jpeg"
+            dc:rights="ellisia - Fotolia"
+            dc:title="Rent  a Car"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}740"
+            tiff:ImageWidth="{Long}1200"
+            xmp:CreatorTool="Adobe Photoshop CC 2015 Macintosh"
+            xmpMM:DocumentID="xmp.did:5C53BF575BBC11EBA1BAA14F54C8AD79"
+            xmpMM:InstanceID="xmp.iid:5C53BF565BBC11EBA1BAA14F54C8AD79">
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="DCE31F45A6F02409001E38536A3D37BD"
+                stRef:instanceID="DCE31F45A6F02409001E38536A3D37BD"
+                xmpNodeType="xmpStruct"/>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

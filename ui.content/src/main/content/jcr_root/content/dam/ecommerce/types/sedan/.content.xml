@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="89797f54-a5fb-4a01-b43f-2cf82c14f83a">
+    <jcr:content
+        cq:name="sedan"
+        cq:parentPath="/content/dam/ecommerce/types"
+        jcr:lastModified="{Date}2026-06-09T15:42:06.940-03:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Sedan"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2026-06-09T15:42:06.940-03:00">
+        <data
+            cq:model="/conf/ecommerce/settings/dam/cfm/models/vehicletype"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                image="/content/dam/ecommerce/imagenes/sedan.png"
+                image_x0040_LastModified="{Date}2026-06-09T15:42:06.890-03:00"
+                image_x0040_LastModifiedBy="admin"
+                name="Sedan"
+                name_x0040_LastModified="{Date}2026-06-08T17:24:52.611-03:00"
+                name_x0040_LastModifiedBy="admin"
+                url="/vehicles?type=sedan"
+                url_x0040_LastModified="{Date}2026-06-09T15:41:01.564-03:00"
+                url_x0040_LastModifiedBy="admin"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="1595f14f-0f9d-42a3-90df-f31f314747be"
+                _x0040_string_x0040_model="/conf/ecommerce/settings/dam/cfm/models/vehicletype"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_name="Sedan"
+                string_x0040_url="/vehicles?type=sedan"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

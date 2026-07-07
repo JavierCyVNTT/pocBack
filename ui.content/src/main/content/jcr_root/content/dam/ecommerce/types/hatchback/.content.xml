@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="9f0ee14f-b76e-44d1-afa5-930c5248e610">
+    <jcr:content
+        cq:name="hatchback"
+        cq:parentPath="/content/dam/ecommerce/types"
+        jcr:lastModified="{Date}2026-06-09T15:44:35.498-03:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Hatchback"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2026-06-09T15:44:35.498-03:00">
+        <data
+            cq:model="/conf/ecommerce/settings/dam/cfm/models/vehicletype"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                image="/content/dam/ecommerce/imagenes/hatchback.png"
+                image_x0040_LastModified="{Date}2026-06-09T15:44:35.458-03:00"
+                image_x0040_LastModifiedBy="admin"
+                name="Hatchback"
+                name_x0040_LastModified="{Date}2026-06-09T15:44:35.458-03:00"
+                name_x0040_LastModifiedBy="admin"
+                url="/vehicles?type=hatchback"
+                url_x0040_LastModified="{Date}2026-06-09T15:44:35.458-03:00"
+                url_x0040_LastModifiedBy="admin"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="5bde9026-ecb4-413d-9bd2-7b09f46bdf1c"
+                _x0040_string_x0040_model="/conf/ecommerce/settings/dam/cfm/models/vehicletype"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_name="Hatchback"
+                string_x0040_url="/vehicles?type=hatchback"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

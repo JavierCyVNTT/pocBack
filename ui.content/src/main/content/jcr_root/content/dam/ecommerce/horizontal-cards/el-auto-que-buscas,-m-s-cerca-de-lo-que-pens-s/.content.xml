@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="3998d9a0-b78d-4de2-9f42-aa7960c979be">
+    <jcr:content
+        cq:name="el-auto-que-buscas,-m-s-cerca-de-lo-que-pens-s"
+        cq:parentPath="/content/dam/ecommerce/horizontal-cards"
+        jcr:lastModified="{Date}2026-06-10T15:22:39.904-03:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="El auto que buscas, más cerca de lo que pensás"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2026-06-10T15:22:39.904-03:00">
+        <data
+            cq:model="/conf/ecommerce/settings/dam/cfm/models/horizontal-card"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                actionText="Ver catálogo"
+                actionText_x0040_LastModified="{Date}2026-05-19T11:38:17.646-03:00"
+                actionText_x0040_LastModifiedBy="admin"
+                actionUrl="http://localhost:4321/vehicles"
+                actionUrl_x0040_LastModified="{Date}2026-06-10T15:22:39.888-03:00"
+                actionUrl_x0040_LastModifiedBy="admin"
+                description="Más de 25 marcas certifiadas"
+                description_x0040_LastModified="{Date}2026-05-19T11:38:17.644-03:00"
+                description_x0040_LastModifiedBy="admin"
+                image="/content/dam/ecommerce/imagenes/img-2.jpg"
+                image_x0040_LastModified="{Date}2026-06-09T11:19:50.521-03:00"
+                image_x0040_LastModifiedBy="admin"
+                title="El auto que buscas, más cerca de lo que pensás"
+                title_x0040_LastModified="{Date}2026-05-19T11:38:17.642-03:00"
+                title_x0040_LastModifiedBy="admin"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="b2b7afcb-ea95-44e9-97f2-a5249602ca7e"
+                _x0040_string_x0040_model="/conf/ecommerce/settings/dam/cfm/models/horizontal-card"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_actionText="Ver catálogo"
+                string_x0040_actionUrl="http://localhost:4321/vehicles"
+                string_x0040_description="Más de 25 marcas certifiadas"
+                string_x0040_title="El auto que buscas, más cerca de lo que pensás"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="166b4ff7-be92-46d4-b63f-3f575c4ba427">
+    <jcr:content
+        cq:name="gu-a-valor"
+        cq:parentPath="/content/dam/ecommerce/kavak-expertos"
+        jcr:lastModified="{Date}2026-05-28T13:22:28.617-03:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Guía Valor"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2026-05-28T13:22:28.617-03:00">
+        <data
+            cq:model="/conf/ecommerce/settings/dam/cfm/models/vertical-banner"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                date="7 Febrero"
+                date_x0040_LastModified="{Date}2026-05-19T09:36:53.986-03:00"
+                date_x0040_LastModifiedBy="admin"
+                image="/content/dam/ecommerce/imagenes/img-3.jpg"
+                image_x0040_LastModified="{Date}2026-05-28T13:22:28.588-03:00"
+                image_x0040_LastModifiedBy="admin"
+                pretitle="Vender"
+                pretitle_x0040_LastModified="{Date}2026-05-19T09:36:53.986-03:00"
+                pretitle_x0040_LastModifiedBy="admin"
+                title="Guía completa para conocer el valor de tu auto"
+                title_x0040_LastModified="{Date}2026-05-19T09:36:53.985-03:00"
+                title_x0040_LastModifiedBy="admin"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="c2511b0e-4591-4c09-9527-cfc728d00e55"
+                _x0040_string_x0040_model="/conf/ecommerce/settings/dam/cfm/models/vertical-banner"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_date="7 Febrero"
+                string_x0040_pretitle="Vender"
+                string_x0040_title="Guía completa para conocer el valor de tu auto"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

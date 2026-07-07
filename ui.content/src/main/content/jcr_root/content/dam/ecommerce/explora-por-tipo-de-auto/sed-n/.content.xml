@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="8ea2ce5a-3974-4c29-bb5a-bea3f0c7a4a5">
+    <jcr:content
+        cq:name="sed-n"
+        cq:parentPath="/content/dam/ecommerce/explora-por-tipo-de-auto"
+        jcr:lastModified="{Date}2026-05-19T10:33:55.994-03:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Sedán"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2026-05-19T10:33:55.994-03:00">
+        <data
+            cq:model="/conf/ecommerce/settings/dam/cfm/models/mini-card"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                image="/content/dam/ecommerce/asset.jpg"
+                image_x0040_LastModified="{Date}2026-05-19T10:33:55.961-03:00"
+                image_x0040_LastModifiedBy="admin"
+                title="Sedán"
+                title_x0040_LastModified="{Date}2026-05-19T10:33:55.960-03:00"
+                title_x0040_LastModifiedBy="admin"
+                url="https://un"
+                url_x0040_LastModified="{Date}2026-05-19T10:33:55.960-03:00"
+                url_x0040_LastModifiedBy="admin"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="435d81ba-1023-44c3-9f0d-228bdf803a3f"
+                _x0040_string_x0040_model="/conf/ecommerce/settings/dam/cfm/models/mini-card"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_title="Sedán"
+                string_x0040_url="https://un"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

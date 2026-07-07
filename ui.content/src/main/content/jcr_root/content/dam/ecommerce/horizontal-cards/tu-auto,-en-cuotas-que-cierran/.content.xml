@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="cf98ef19-e9a0-4f76-8074-661200658de0">
+    <jcr:content
+        cq:name="tu-auto,-en-cuotas-que-cierran"
+        cq:parentPath="/content/dam/ecommerce/horizontal-cards"
+        jcr:lastModified="{Date}2026-06-10T15:21:45.472-03:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Tu auto, en cuotas que cierran"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2026-06-10T15:21:45.472-03:00">
+        <data
+            cq:model="/conf/ecommerce/settings/dam/cfm/models/horizontal-card"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                actionText="Calculá tu cuota"
+                actionText_x0040_LastModified="{Date}2026-05-28T13:20:20.092-03:00"
+                actionText_x0040_LastModifiedBy="admin"
+                actionUrl="http://localhost:4321/credit"
+                actionUrl_x0040_LastModified="{Date}2026-06-10T15:21:45.451-03:00"
+                actionUrl_x0040_LastModifiedBy="admin"
+                description="Calculá cuanto pagas hoy"
+                description_x0040_LastModified="{Date}2026-05-19T11:40:07.708-03:00"
+                description_x0040_LastModifiedBy="admin"
+                image="/content/dam/ecommerce/imagenes/corolla-ext.jpg"
+                image_x0040_LastModified="{Date}2026-06-09T11:20:24.176-03:00"
+                image_x0040_LastModifiedBy="admin"
+                title="Tu auto, en cuotas que cierran"
+                title_x0040_LastModified="{Date}2026-05-19T11:40:07.707-03:00"
+                title_x0040_LastModifiedBy="admin"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="af636997-354d-4843-8ee6-375f36bdbc60"
+                _x0040_string_x0040_model="/conf/ecommerce/settings/dam/cfm/models/horizontal-card"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_actionText="Calculá tu cuota"
+                string_x0040_actionUrl="http://localhost:4321/credit"
+                string_x0040_description="Calculá cuanto pagas hoy"
+                string_x0040_title="Tu auto, en cuotas que cierran"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

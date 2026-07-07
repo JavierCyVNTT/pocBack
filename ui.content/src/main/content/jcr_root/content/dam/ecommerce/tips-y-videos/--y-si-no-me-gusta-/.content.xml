@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="24426b07-caf2-4de3-96bf-2526e41c8f23">
+    <jcr:content
+        cq:name="--y-si-no-me-gusta-"
+        cq:parentPath="/content/dam/ecommerce/tips-y-videos"
+        jcr:lastModified="{Date}2026-06-10T15:34:35.230-03:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="¿ Y si no me gusta?"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2026-06-10T15:34:35.230-03:00">
+        <data
+            cq:model="/conf/ecommerce/settings/dam/cfm/models/vertical-card"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                image="/content/dam/ecommerce/imagenes/img-3.jpg"
+                image_x0040_LastModified="{Date}2026-05-28T13:23:41.719-03:00"
+                image_x0040_LastModifiedBy="admin"
+                subtitle="Comprá con tranquilidad, tenés hasta 7 días o 300 km para cambiarlo"
+                subtitle_x0040_LastModified="{Date}2026-05-19T11:17:09.454-03:00"
+                subtitle_x0040_LastModifiedBy="admin"
+                title="¿Y si no me gusta?"
+                title_x0040_LastModified="{Date}2026-05-19T11:17:09.454-03:00"
+                title_x0040_LastModifiedBy="admin"
+                video="https://youtube.com/shorts/ySflPQil908?si=DfTPKAb-bzTIC8zV"
+                video_x0040_LastModified="{Date}2026-06-10T15:34:35.211-03:00"
+                video_x0040_LastModifiedBy="admin"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="bfd08481-12c7-4beb-99b9-5ba0576296f8"
+                _x0040_string_x0040_model="/conf/ecommerce/settings/dam/cfm/models/vertical-card"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_subtitle="Comprá con tranquilidad, tenés hasta 7 días o 300 km para cambiarlo"
+                string_x0040_title="¿Y si no me gusta?"
+                string_x0040_video="https://youtube.com/shorts/ySflPQil908?si=DfTPKAb-bzTIC8zV"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

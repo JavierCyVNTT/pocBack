@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="f2b819d6-b691-44c7-b621-617f0ad0edbd">
+    <jcr:content
+        cq:name="toyota"
+        cq:parentPath="/content/dam/ecommerce/marcas"
+        jcr:lastModified="{Date}2026-05-28T12:53:26.201-03:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Toyota"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2026-05-28T12:53:26.201-03:00">
+        <data
+            cq:model="/conf/ecommerce/settings/dam/cfm/models/brand"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                name="Toyota"
+                name_x0040_LastModified="{Date}2026-05-28T12:53:26.172-03:00"
+                name_x0040_LastModifiedBy="admin"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="4fdf9c3b-ab40-4425-9d65-5a790dec20f2"
+                _x0040_string_x0040_model="/conf/ecommerce/settings/dam/cfm/models/brand"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_name="Toyota"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>
