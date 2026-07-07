@@ -40,12 +40,30 @@ public class AiQuoteServlet extends SlingAllMethodsServlet {
 
     private static final String SYSTEM_PROMPT =
         "You are a professional car appraiser. " +
-        "Analyze the provided car description and photos to estimate its market value in USD.\n" +
+        "Analyze the provided car description and photos to estimate its market value in USD, " +
+        "and identify the vehicle's basic data. This is a preliminary estimate; the seller will " +
+        "review and correct this data afterwards.\n" +
         "Return ONLY a valid JSON object with no explanation or markdown. Use these exact fields:\n" +
         "- minPriceUSD (number): minimum estimated price in USD\n" +
         "- maxPriceUSD (number): maximum estimated price in USD\n" +
         "- condition (string): one of excellent | good | fair | poor\n" +
-        "- reasoning (string): 1-2 sentences explaining your estimate\n\n" +
+        "- reasoning (string): 1-2 sentences explaining your estimate\n" +
+        "- brandName (string): the car brand/make, e.g. Toyota\n" +
+        "- modelName (string): the car model, e.g. Corolla\n" +
+        "- versionName (string): the trim/version, e.g. XEI, GLS, or empty string if unknown\n" +
+        "- lineName (string): the generation/line, e.g. \"Corolla Cross\", or empty string if unknown\n" +
+        "- typeName (string): the body type, one of Sedan | SUV | Hatchback | Pickup | Coupe | Van\n" +
+        "- year (number): the model year, or 0 if unknown\n" +
+        "- km (number): the mileage in kilometers, or 0 if unknown\n" +
+        "- ownersCount (number): estimated number of previous owners, default 1 if unknown\n" +
+        "- equipmentLevel (string): one of Base | Intermedio | Full, default Base if unknown\n" +
+        "- seats (number): number of seats, default 5 if unknown\n" +
+        "- doors (number): number of doors, default 4 if unknown\n" +
+        "- color (string): the exterior color, or empty string if unknown\n" +
+        "- engineDescription (string): engine size/characteristics, e.g. \"1.8L 4 cilindros\", or empty string if unknown\n" +
+        "- fuelType (string): one of Nafta | Diesel | GNC | Hibrido | Electrico, or empty string if unknown\n" +
+        "- transmission (string): one of Manual | Automatica, or empty string if unknown\n" +
+        "- traction (string): one of Delantera | Trasera | Integral | 4x4, or empty string if unknown\n\n" +
         "Car description: ";
 
     @Override
@@ -85,6 +103,22 @@ public class AiQuoteServlet extends SlingAllMethodsServlet {
             long maxUSD = extractLongValue(quoteJson, "maxPriceUSD");
             String condition = extractStringValue(quoteJson, "condition");
             String reasoning = extractStringValue(quoteJson, "reasoning");
+            String brandName = extractStringValue(quoteJson, "brandName");
+            String modelName = extractStringValue(quoteJson, "modelName");
+            String versionName = extractStringValue(quoteJson, "versionName");
+            String lineName = extractStringValue(quoteJson, "lineName");
+            String typeName = extractStringValue(quoteJson, "typeName");
+            long year = extractLongValue(quoteJson, "year");
+            long km = extractLongValue(quoteJson, "km");
+            long ownersCount = extractLongValue(quoteJson, "ownersCount");
+            String equipmentLevel = extractStringValue(quoteJson, "equipmentLevel");
+            long seats = extractLongValue(quoteJson, "seats");
+            long doors = extractLongValue(quoteJson, "doors");
+            String color = extractStringValue(quoteJson, "color");
+            String engineDescription = extractStringValue(quoteJson, "engineDescription");
+            String fuelType = extractStringValue(quoteJson, "fuelType");
+            String transmission = extractStringValue(quoteJson, "transmission");
+            String traction = extractStringValue(quoteJson, "traction");
 
             String result = "{"
                 + "\"success\":true,"
@@ -92,7 +126,23 @@ public class AiQuoteServlet extends SlingAllMethodsServlet {
                 + "\"minPriceUSD\":" + minUSD + ","
                 + "\"maxPriceUSD\":" + maxUSD + ","
                 + "\"condition\":\"" + (condition != null ? condition : "unknown") + "\","
-                + "\"reasoning\":" + geminiService.jsonEscape(reasoning != null ? reasoning : "")
+                + "\"reasoning\":" + geminiService.jsonEscape(reasoning != null ? reasoning : "") + ","
+                + "\"brandName\":" + geminiService.jsonEscape(brandName != null ? brandName : "") + ","
+                + "\"modelName\":" + geminiService.jsonEscape(modelName != null ? modelName : "") + ","
+                + "\"versionName\":" + geminiService.jsonEscape(versionName != null ? versionName : "") + ","
+                + "\"lineName\":" + geminiService.jsonEscape(lineName != null ? lineName : "") + ","
+                + "\"typeName\":" + geminiService.jsonEscape(typeName != null ? typeName : "") + ","
+                + "\"year\":" + year + ","
+                + "\"km\":" + km + ","
+                + "\"ownersCount\":" + (ownersCount > 0 ? ownersCount : 1) + ","
+                + "\"equipmentLevel\":" + geminiService.jsonEscape(!isBlank(equipmentLevel) ? equipmentLevel : "Base") + ","
+                + "\"seats\":" + (seats > 0 ? seats : 5) + ","
+                + "\"doors\":" + (doors > 0 ? doors : 4) + ","
+                + "\"color\":" + geminiService.jsonEscape(color != null ? color : "") + ","
+                + "\"engineDescription\":" + geminiService.jsonEscape(engineDescription != null ? engineDescription : "") + ","
+                + "\"fuelType\":" + geminiService.jsonEscape(fuelType != null ? fuelType : "") + ","
+                + "\"transmission\":" + geminiService.jsonEscape(transmission != null ? transmission : "") + ","
+                + "\"traction\":" + geminiService.jsonEscape(traction != null ? traction : "")
                 + "}"
                 + "}";
 
@@ -199,5 +249,9 @@ public class AiQuoteServlet extends SlingAllMethodsServlet {
         } catch (NumberFormatException e) {
             return 0;
         }
+    }
+
+    private boolean isBlank(String value) {
+        return value == null || value.trim().isEmpty();
     }
 }
