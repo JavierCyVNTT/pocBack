@@ -53,7 +53,7 @@
                     <group>com.adobe.aem.ecommerce</group>
                     <name>aem-headless-ecommerce.ui.content</name>
                     <packageType>content</packageType>
-                    <accessControlHandling>merge</accessControlHandling>
+                    <accessControlHandling>ignore</accessControlHandling>
                     <validatorsSettings>
                         <jackrabbit-filter>
                             <options>
