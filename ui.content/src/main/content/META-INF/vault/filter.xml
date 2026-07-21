@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
-    <filter root="/conf/ecommerce" mode="merge"/>
+    <filter root="/conf/ecommerce/settings/dam/cfm/models" mode="replace"/>
     <filter root="/content/ecommerce" mode="merge"/>
-    <filter root="/content/dam/ecommerce/asset.jpg" mode="merge"/>
+    <filter root="/content/dam/ecommerce" mode="merge"/>
     <filter root="/content/experience-fragments/ecommerce" mode="merge"/>
 </workspaceFilter>
